@@ -3,7 +3,7 @@ import Keys._
 
 name := "shocktrade-dao-cassandra"
 
-organization := "srs"
+organization := "com.ldaniels528"
 
 version := "0.1"
 
@@ -24,7 +24,7 @@ libraryDependencies ++= Seq(
 
 // Shocktrade Dependencies
 libraryDependencies ++= Seq(
-	"srs" %% "shocktrade-util" % "0.1.1"
+	"com.ldaniels528" %% "shocktrade-util" % "0.1.1"
 )
 	
 // Testing Dependencies
